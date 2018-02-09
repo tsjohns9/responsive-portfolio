@@ -1,0 +1,48 @@
+#image-container {
+  text-align: center;
+}
+
+#image-container div:last-child {
+  margin-bottom: 0;
+}
+
+.bg-style {
+  display: inline-block;
+  height:200px;
+  margin-bottom: 40px;
+  position: relative;
+  width: 230px;
+}
+
+.image-text {
+  background-color: #4aaaa5;
+  color: white;
+  left: 50%;
+  padding: 5px;
+  position: absolute;
+  text-align: center;
+  top: 70%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+#bg-image-1 {
+  background-image: url("../images/image-1.jpg");
+}
+
+#bg-image-2 {
+  background-image: url("../images/image-2.jpg");
+}
+
+#bg-image-3 {
+  background-image: url("../images/image-3.jpg");
+}
+
+#bg-image-4 {
+  background-image: url("../images/image-4.jpg");
+}
+
+#bg-image-5 {
+  background-image: url("../images/image-5.jpg");
+}
