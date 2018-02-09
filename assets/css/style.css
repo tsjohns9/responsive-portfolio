@@ -71,7 +71,7 @@ nav {
 }
 
 nav ul {
-  font-size: 20px;
+  font-size: 14px;
   list-style: none;
 }
 
@@ -86,7 +86,6 @@ nav ul li {
 }
 
 #entire-content-area {
-  /* margin: 0 auto; */
   width: 300px;
   margin-bottom: 40px;
   font-size: 14px;
@@ -99,7 +98,7 @@ nav ul li {
   line-height: 30px;
   padding: 40px 28px;
   width: 100%;
-  margin-bottom: 5%;
+  margin-bottom: 40px;
 }
 
 #main-section-content h1 {
@@ -109,11 +108,13 @@ nav ul li {
   padding-bottom: 20px;
 }
 
+.profile-pic-container {
+  text-align: center;
+}
+
 #profile-pic {
-  float: left;
-  height: 175px;
-  margin-right: 20px;
-  width: 175px;
+  height: 300px;
+  width: 300px;
 }
 
 /* Sidebar */
@@ -127,21 +128,12 @@ nav ul li {
 }
 
 #sidebar h2 {
+  border-bottom: solid 2px #ddd;
   font-size: 24px;
-  text-align: center;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 
-#h2-bottom-border {
-  height: 2px;
-  background-color: #ddd;
-  width: 70%;
-  margin: 25px auto !important;
-}
-
-#sidebar div {
-  display: table;
-  margin: 0 auto;
-}
 
 #sidebar div ul li {
   display: inline;

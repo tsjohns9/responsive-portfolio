@@ -1,4 +1,9 @@
 @media (min-width: 300px) {
+
+  nav ul {
+    font-size: 16px;
+  }
+
   #entire-content-area {
     margin: 0 auto 40px auto;
     width: 95%;
@@ -13,11 +18,6 @@
 @media (min-width: 654px) {
   #image-container {
     text-align: justify;
-  }
-
-  #profile-pic {
-    width: 200px;
-    height: 200px;
   }
 
   #entire-content-area {
@@ -39,6 +39,10 @@
     top: 50%;
   }
 
+  nav ul {
+    font-size: 20px;
+  }
+
   header div, #entire-content-area,
   #entire-content-area, #sidebar{
     width: 730px;
@@ -50,6 +54,18 @@
 
   #image-container {
     margin: 0 40px;
+  }
+
+  .profile-pic-container {
+    float: left;
+    text-align: left;
+    margin-right: 20px;
+    height: 200px;
+  }
+
+  #profile-pic {
+    width: 200px;
+    height: 200px;
   }
 
 }
@@ -77,8 +93,12 @@
     width: 270px;
   }
 
-  #h2-bottom-border {
-    width: 85%;
+  #sidebar h2 {
+    text-align: center;
   }
 
+  #sidebar div {
+    display: table;
+    margin: 0 auto;
+  }
 }
