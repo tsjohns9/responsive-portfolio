@@ -40,6 +40,7 @@ header {
   background: #fff;
   border-bottom: solid 2px #ccc;
   margin-bottom: 40px;
+  width: 300px;
 }
 
 header div {
@@ -85,9 +86,10 @@ nav ul li {
 }
 
 #entire-content-area {
-  margin: 0 auto;
-  width: 80%;
+  /* margin: 0 auto; */
+  width: 300px;
   margin-bottom: 40px;
+  font-size: 14px;
 }
 
 #main-section-content {
@@ -109,9 +111,9 @@ nav ul li {
 
 #profile-pic {
   float: left;
-  height: 200px;
+  height: 175px;
   margin-right: 20px;
-  width: 200px;
+  width: 175px;
 }
 
 /* Sidebar */
@@ -159,4 +161,5 @@ footer {
   height: 60px;
   padding: 25px 0;
   text-align: center;
+  width: 300px;
 }
