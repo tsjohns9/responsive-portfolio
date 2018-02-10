@@ -40,7 +40,6 @@ header {
   background: #fff;
   border-bottom: solid 2px #ccc;
   margin-bottom: 40px;
-  width: 300px;
 }
 
 header div {
@@ -52,7 +51,7 @@ header div {
 header h1 {
   background: #4aaaa5;
   color: white;
-  font-size: 32px;
+  font-size: 25px;
   padding: 25px 30px;
   width: 100%;
   text-align: center;
@@ -86,8 +85,8 @@ nav ul li {
 }
 
 #entire-content-area {
-  width: 300px;
-  margin-bottom: 40px;
+  width: 100%;
+  margin: 0 auto 40px auto;
   font-size: 14px;
 }
 
@@ -113,8 +112,8 @@ nav ul li {
 }
 
 #profile-pic {
-  height: 300px;
-  width: 300px;
+  height: 275px;
+  width: 95%;
 }
 
 /* Sidebar */
@@ -123,7 +122,7 @@ nav ul li {
   background: #fff;
   border: solid 1px #ddd;
   float: left;
-  padding: 28px;
+  padding: 20px 10px;
   width: 100%;
 }
 
@@ -151,7 +150,6 @@ footer {
   border-top: solid 5px #4aaaa5;
   color: rgb(182, 182, 182);
   height: 60px;
-  padding: 25px 0;
+  padding-top: 20px;
   text-align: center;
-  width: 300px;
 }

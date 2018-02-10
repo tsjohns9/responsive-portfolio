@@ -22,11 +22,3 @@ textarea {
   margin-bottom: 15px;
   width: 100%;
 }
-
-input:focus {
-  outline-color: #4aaaa5;
-}
-
-#contact-form:focus {
-  outline-color: #4aaaa5;
-}

@@ -1,18 +1,21 @@
-@media (min-width: 300px) {
+@media (min-width: 425px) {
+
+  header h1 {
+    font-size: 32px;
+  }
 
   nav ul {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   #entire-content-area {
-    margin: 0 auto 40px auto;
     width: 95%;
   }
 
-  footer, header {
-    width: 100%;
+  #profile-pic {
+    height: 300px;
+    width: 300px;
   }
-
 }
 
 @media (min-width: 654px) {
@@ -68,6 +71,9 @@
     height: 200px;
   }
 
+  #sidebar {
+    padding: 28px;
+  }
 }
 
 @media (min-width: 992px) {
